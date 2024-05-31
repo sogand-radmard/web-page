@@ -1,0 +1,227 @@
+@import url(http://awebfont.ir/css?id=1116);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'B Yekan' , tahoma, Arial;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #92E3A9;
+}
+
+.main-container{
+     margin: 0 auto;  /*center of its container*/
+     width: 1200px;
+} 
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-right{
+    display: flex;
+}
+
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.menu-item{
+    padding: 10px 20px;
+    color: #92E3A9;
+    font-size: 20px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #92E3A9;
+}
+
+.menu-item a:hover{
+    color: #35454d;
+}
+
+.header-left{
+    display: flex;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.header-list a{
+    text-decoration: none;
+}
+
+.header-login , .header-signup{
+    padding: 10px 20px;
+    color: #92E3A9;
+    /* font-size: 20px; */
+}
+
+.header-list , .header-signup a{
+    color: #92E3A9;
+}
+
+.header-left .header-login a {
+    background-color: #92E3A9;
+    color: #fff;
+    border-radius: 20px;
+    padding: 9px;
+
+}
+
+.header-login a:hover{
+    color: #fff;
+    background-color: #35454d;
+}
+
+.header-signup a:hover{
+    color: #35454d;
+}
+
+.header-bottom{
+    display: flex;
+}
+
+.header-bottom-right{
+    width: 50%;
+    padding: 90px 20px;
+}
+
+.title{
+    margin: 50px 0 10px;
+    color: #92E3A9;
+
+}
+
+.desc{
+    color: #92E3A9;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.info{
+    color: #000000a6;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.header-bottom-left{
+    width: 50%;
+}
+
+.host-section{
+    background: linear-gradient(to bottom, rgba(146,227,169,0)0,rgb(196, 248, 211) 100%);
+}
+
+.host-section-title{
+    text-align: center;
+    padding-top: 100px;
+    color: #000000a6;
+}
+
+.host-item{
+    margin: 0 10px;
+    padding: 40px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: justify;
+    color: #000000a6;
+    position: relative;
+}
+
+.host-item-title{
+    position: absolute;
+    width: 220px;
+    background-color: #92E3A9;
+    color: #fff;
+    top: -28px;
+    text-align: center;
+    margin: auto;
+    right: 0;
+    left: 0;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.host-list{
+    display: flex;
+    padding: 100px 0;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.feature-right{
+    width: 50%;
+}
+
+.feature-right-title{
+    color: #92E3A9;
+    margin: 50px 0 10px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+.feature-right-desc{
+    color: #000000a6;
+
+}
+
+.feature-left{
+    width: 50%;
+    padding: 10px 20px;
+}
+
+
+.feature:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.footer-section{
+    text-align: center;
+    padding: 50px 0;
+    color: #000000a6;
+
+}
+
+.footer-section p{
+    font-size: 20px;
+}
+
+.socials i{
+    font-size: 25px;
+    padding: 10px;
+}
